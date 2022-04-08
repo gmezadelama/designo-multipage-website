@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans;
+    @apply font-normal;
+    color: theme("colors.black");
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+  h1 {
+    @apply font-sans;
+    @apply font-medium;
+    @apply text-5xl;
+    color: theme("colors.black");
+  }
+  h2 {
+    @apply font-sans;
+    @apply font-medium;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    color: theme("colors.black");
+  }
+  h3 {
+    @apply uppercase;
+    @apply font-sans;
+    @apply font-medium;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    letter-spacing: 5px;
+    color: theme("colors.black");
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .icon-burger {
+    @apply bg-cover;
+    width: 24px;
+    height: 24px;
+    background-image: url("../public/assets/shared/mobile/icon-hamburger.svg");
+  }
+  .icon-close {
+    @apply bg-cover;
+    width: 24px;
+    height: 24px;
+    background-image: url("../public/assets/shared/mobile/icon-close.svg");
+  }
 }
