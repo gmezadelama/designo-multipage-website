@@ -4,30 +4,24 @@ export interface ICompanyMenuFooterProps {}
 
 const CompanyMenuFooter = (props: ICompanyMenuFooterProps) => {
   return (
-    <div className={"grid grid-cols-[1fr_auto]"}>
-      <div className={`bg-logo-light w-[195px] h-[24px] bg-cover`} />
+    <div className={"sm:grid sm:grid-cols-[1fr_auto] bg-black"}>
+      <div
+        className={`mx-auto my-0 sm:m-0 bg-logo-light w-[195px] h-[24px] bg-cover`}
+      />
       <div
         className={
-          "hidden sm:inline-grid sm:grid-flow-col sm:auto-cols-auto sm:gap-[42px]"
+          "inline-grid pt-8 mt-8 border-t gap-8 text-center border-white w-full sm:border-0 sm:pt-0 sm:mt-0 sm:grid-flow-col sm:auto-cols-auto sm:gap-[42px] sm:text-left"
         }
       >
-        <div className={` text-white uppercase cursor-pointer`}>
+        <div className={` text-white uppercase cursor-pointer tracking-[2px]`}>
           {"Our Company"}
         </div>
-        <div className={` text-white uppercase cursor-pointer`}>
+        <div className={` text-white uppercase cursor-pointer tracking-[2px]`}>
           {"Locations"}
         </div>
-        <div className={` text-white uppercase cursor-pointer`}>
+        <div className={` text-white uppercase cursor-pointer tracking-[2px]`}>
           {"Contact"}
         </div>
-      </div>
-      <div className={"sm:hidden"}>
-        <button
-          className={"icon-burger"}
-          onClick={() => {
-            console.log("burger");
-          }}
-        />
       </div>
     </div>
   );
