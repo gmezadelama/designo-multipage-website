@@ -13,14 +13,14 @@ export default {
 } as ComponentMeta<typeof Header>;
 
 const Template: ComponentStory<typeof Header> = (args) => (
-  <div>
+  <header>
     <Header {...args} />
-  </div>
+  </header>
 );
 const FooterTemplate: ComponentStory<typeof Header> = (args) => (
-  <div className={"bg-black p-2"}>
+  <footer className={"p-0"}>
     <Footer />
-  </div>
+  </footer>
 );
 
 export const HeaderMenu = Template.bind({});

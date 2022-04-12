@@ -21,6 +21,8 @@ module.exports = {
           "url('../public/assets/app-design/desktop/bg-pattern-intro-app.svg')",
         "logo-dark": "url('../public/assets/shared/desktop/logo-dark.png')",
         "logo-light": "url('../public/assets/shared/desktop/logo-light.png')",
+        "call-to-action":
+          "url('../public/assets/shared/desktop/bg-pattern-call-to-action.svg')",
       },
     },
   },

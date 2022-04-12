@@ -85,4 +85,13 @@
     height: 24px;
     background-image: url("../public/assets/shared/desktop/icon-instagram.svg");
   }
+  .getInTouchBg-mobile {
+    background-position: top -100px right -305px;
+  }
+  .getInTouchBg-tablet {
+    background-position: top -115px right -230px;
+  }
+  .getInTouchBg-desktop {
+    background-position: top -140px right;
+  }
 }
