@@ -7,15 +7,15 @@
     @apply font-sans;
     @apply font-normal;
     color: theme("colors.black");
-    font-size: 1rem;
-    line-height: 1.625rem;
+    font-size: 1rem; /* 16px */
+    line-height: 1.625rem; /* 26px */
   }
   div {
     @apply font-sans;
     @apply font-normal;
     color: theme("colors.black");
-    font-size: 1rem;
-    line-height: 1.625rem;
+    font-size: 1rem; /* 16px */
+    line-height: 1.625rem; /* 26px */
   }
   h1 {
     @apply font-sans;
@@ -26,8 +26,8 @@
   h2 {
     @apply font-sans;
     @apply font-medium;
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 2.5rem; /* 40px */
+    line-height: 3rem; /* 48px */
     letter-spacing: 2px;
     color: theme("colors.black");
   }
@@ -35,8 +35,8 @@
     @apply uppercase;
     @apply font-sans;
     @apply font-medium;
-    font-size: 1.25rem;
-    line-height: 1.625rem;
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.625rem; /* 26px */
     letter-spacing: 5px;
     color: theme("colors.black");
   }
@@ -93,5 +93,20 @@
   }
   .getInTouchBg-desktop {
     background-position: top -140px right;
+  }
+  .titleBg-mobile {
+    background-position: top right;
+  }
+  .titleBg-tablet {
+    background-position: top -170px right -160px;
+  }
+  .webTitleBg-desktop {
+    background-position: top -160px right;
+  }
+  .appTitleBg-desktop {
+    background-position: top -160px left -70px;
+  }
+  .graphicTitleBg-desktop {
+    background-position: top -160px left -50px;
   }
 }
