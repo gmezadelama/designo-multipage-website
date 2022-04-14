@@ -1,7 +1,6 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import Title, { DesignPagesEnum } from "../components/title/Title";
+import Title, { DesignPagesEnum } from "../../components/title/Title";
 
 export default {
   title: "Designo/Title",

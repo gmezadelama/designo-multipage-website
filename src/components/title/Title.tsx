@@ -1,5 +1,3 @@
-import React from "react";
-
 export enum DesignPagesEnum {
   Web = "web",
   App = "app",

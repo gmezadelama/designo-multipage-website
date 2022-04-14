@@ -1,10 +1,9 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import FullMenu from "../components/pageMenu/FullMenu";
-import PartialMenuLayout from "../components/pageMenu/PartialMenuLayout";
-import WebDesignButton from "../components/pageMenu/WebDesignButton";
-import AppDesignButton from "../components/pageMenu/AppDesignButton";
+import FullMenu from "../../components/pageMenu/FullMenu";
+import PartialMenuLayout from "../../components/pageMenu/PartialMenuLayout";
+import WebDesignButton from "../../components/pageMenu/WebDesignButton";
+import AppDesignButton from "../../components/pageMenu/AppDesignButton";
 
 export default {
   title: "Designo/DesignPagesMenu",

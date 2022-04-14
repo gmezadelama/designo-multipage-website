@@ -1,5 +1,3 @@
-import React from "react";
-
 export interface IDesignoAttributeProps {
   imageClass: string;
   title: string;

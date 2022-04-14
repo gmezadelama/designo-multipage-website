@@ -1,7 +1,6 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import LightButton from "./components/buttons/LightButton";
+import WebDesignFeaturesList from "./components/features/WebDesignFeaturesList";
 
 function App() {
   return (
@@ -15,6 +14,8 @@ function App() {
         }
       </p>
       <LightButton label={"Learn More"} />
+      <br />
+      <WebDesignFeaturesList />
     </div>
   );
 }

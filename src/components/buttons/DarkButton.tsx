@@ -1,5 +1,3 @@
-import React from "react";
-
 export interface IDarkButtonProps {
   label: string;
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;

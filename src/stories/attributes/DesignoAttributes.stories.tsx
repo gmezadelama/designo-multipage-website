@@ -1,8 +1,7 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import DesignoAttribute from "../components/attributes/DesignoAttribute";
-import DesignoAttributesList from "../components/attributes/DesignoAttributesList";
+import DesignoAttribute from "../../components/attributes/DesignoAttribute";
+import DesignoAttributesList from "../../components/attributes/DesignoAttributesList";
 
 export default {
   title: "Designo/Attributes",

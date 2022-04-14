@@ -1,4 +1,3 @@
-import React from "react";
 import CompanyMenu from "./CompanyMenuFooter";
 import Contact from "./Contact";
 import GetInTouch from "./GetInTouch";

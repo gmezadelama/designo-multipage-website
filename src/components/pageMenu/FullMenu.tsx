@@ -1,4 +1,3 @@
-import React from "react";
 import AppDesignButton from "./AppDesignButton";
 import GraphicDesignButton from "./GraphicDesignButton";
 import PageMenuButton from "./PageMenuButton";

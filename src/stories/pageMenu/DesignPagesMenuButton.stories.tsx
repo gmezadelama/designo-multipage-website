@@ -1,7 +1,6 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import PageMenuButton from "../components/pageMenu/PageMenuButton";
+import PageMenuButton from "../../components/pageMenu/PageMenuButton";
 
 export default {
   title: "Designo/PageMenuButton",

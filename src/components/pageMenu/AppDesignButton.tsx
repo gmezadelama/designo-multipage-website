@@ -1,4 +1,3 @@
-import React from "react";
 import PageMenuButton from "./PageMenuButton";
 
 export interface IAppDesignButtonProps {

@@ -1,4 +1,3 @@
-import React from "react";
 import LightButton from "../buttons/LightButton";
 
 export interface IGetInTouchProps {}

@@ -1,6 +1,5 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import DarkButton from "../components/buttons/DarkButton";
+import DarkButton from "../../components/buttons/DarkButton";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

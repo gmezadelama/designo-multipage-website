@@ -1,4 +1,3 @@
-import React from "react";
 import DesignoAttribute from "./DesignoAttribute";
 
 const DesignoAttributesList = () => {

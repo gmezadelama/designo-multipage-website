@@ -1,6 +1,5 @@
-import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import LightButton from "../components/buttons/LightButton";
+import LightButton from "../../components/buttons/LightButton";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
