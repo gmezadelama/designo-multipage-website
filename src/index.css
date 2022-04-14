@@ -109,4 +109,44 @@
   .graphicTitleBg-desktop {
     background-position: top -160px left -50px;
   }
+  .menu-pages-web-design-desktop-large {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/desktop/image-web-design-large.jpg");
+  }
+  .menu-pages-web-design-desktop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/desktop/image-web-design-small.jpg");
+  }
+  .menu-pages-app-design-desktop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/desktop/image-app-design.jpg");
+  }
+  .menu-pages-graphic-design-desktop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/desktop/image-graphic-design.jpg");
+  }
+  .menu-pages-web-design-tablet {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/tablet/image-web-design.jpg");
+  }
+  .menu-pages-app-design-tablet {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/tablet/image-app-design.jpg");
+  }
+  .menu-pages-graphic-design-tablet {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/tablet/image-graphic-design.jpg");
+  }
+  .menu-pages-web-design-mobile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/mobile/image-web-design.jpg");
+  }
+  .menu-pages-app-design-mobile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/mobile/image-app-design.jpg");
+  }
+  .menu-pages-graphic-design-mobile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../public/assets/home/mobile/image-graphic-design.jpg");
+  }
 }
