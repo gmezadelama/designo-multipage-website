@@ -11,6 +11,9 @@ const AppDesignButton = (props: IAppDesignButtonProps) => (
     backgroundClass={
       "menu-pages-app-design-mobile sm:menu-pages-app-design-tablet md:menu-pages-app-design-desktop"
     }
+    backgroundHoverClass={
+      "hover:menu-pages-app-design-mobile-hover sm:hover:menu-pages-app-design-tablet-hover md:hover:menu-pages-app-design-desktop-hover"
+    }
     {...props}
   />
 );

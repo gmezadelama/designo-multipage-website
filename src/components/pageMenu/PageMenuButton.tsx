@@ -3,18 +3,20 @@ import React from "react";
 export interface IPageMenuButtonProps {
   title: string;
   backgroundClass: string;
+  backgroundHoverClass: string;
   onClick?: () => void;
 }
 
 const PageMenuButton = ({
   title,
   backgroundClass,
+  backgroundHoverClass,
   onClick,
 }: IPageMenuButtonProps) => {
   return (
     <div
       onClick={onClick}
-      className={`${backgroundClass} bg-no-repeat bg-cover rounded-[15px] w-full h-full py-[90px] grid grid-flow-row gap-6 justify-center mx-auto sm:py-[53px] md:py-[109px] lg:py-[105px] hover:cursor-pointer hover:opacity-70`}
+      className={`${backgroundClass} bg-no-repeat bg-cover rounded-[15px] w-full h-full py-[90px] grid grid-flow-row gap-6 justify-center mx-auto sm:py-[53px] md:py-[109px] lg:py-[105px] hover:cursor-pointer ${backgroundHoverClass}`}
     >
       <div
         className={

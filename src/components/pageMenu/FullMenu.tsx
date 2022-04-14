@@ -18,6 +18,9 @@ const FullMenu = (props: IFullMenuProps) => {
           backgroundClass={
             "menu-pages-web-design-mobile sm:menu-pages-web-design-tablet md:menu-pages-web-design-desktop-large"
           }
+          backgroundHoverClass={
+            "hover:menu-pages-web-design-mobile-hover sm:hover:menu-pages-web-design-tablet-hover md:hover:menu-pages-web-design-desktop-large-hover"
+          }
         />
         <div className={"grid gap-6"}>
           <AppDesignButton />

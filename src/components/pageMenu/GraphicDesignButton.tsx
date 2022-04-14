@@ -11,6 +11,9 @@ const GraphicDesignButton = (props: IGraphicDesignButtonProps) => (
     backgroundClass={
       "menu-pages-graphic-design-mobile sm:menu-pages-graphic-design-tablet md:menu-pages-graphic-design-desktop"
     }
+    backgroundHoverClass={
+      "hover:menu-pages-graphic-design-mobile-hover sm:hover:menu-pages-graphic-design-tablet-hover md:hover:menu-pages-graphic-design-desktop-hover"
+    }
     {...props}
   />
 );

@@ -152,6 +152,76 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../public/assets/home/mobile/image-graphic-design.jpg");
   }
+  .menu-pages-web-design-desktop-large-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/desktop/image-web-design-large.jpg");
+  }
+  .menu-pages-web-design-desktop-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/desktop/image-web-design-small.jpg");
+  }
+  .menu-pages-app-design-desktop-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/desktop/image-app-design.jpg");
+  }
+  .menu-pages-graphic-design-desktop-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/desktop/image-graphic-design.jpg");
+  }
+  .menu-pages-web-design-tablet-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/tablet/image-web-design.jpg");
+  }
+  .menu-pages-app-design-tablet-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/tablet/image-app-design.jpg");
+  }
+  .menu-pages-graphic-design-tablet-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/tablet/image-graphic-design.jpg");
+  }
+  .menu-pages-web-design-mobile-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/mobile/image-web-design.jpg");
+  }
+  .menu-pages-app-design-mobile-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/mobile/image-app-design.jpg");
+  }
+  .menu-pages-graphic-design-mobile-hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.7),
+        rgba(231, 129, 107, 0.7)
+      ),
+      url("../public/assets/home/mobile/image-graphic-design.jpg");
+  }
   /* designo attributes background */
   .attribute-passionate {
     background-image: url("../public/assets/home/desktop/illustration-passionate.svg"),
