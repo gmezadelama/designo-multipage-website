@@ -224,15 +224,37 @@
   }
   /* designo attributes background */
   .attribute-passionate {
-    background-image: url("../public/assets/home/desktop/illustration-passionate.svg"),
+    background-image: linear-gradient(
+        90deg,
+        rgba(93, 2, 2, 0.0001) 0%,
+        rgba(93, 2, 2, 0.497569) 100%
+      ),
       url("../public/assets/home/desktop/bg-pattern-hero-home.svg");
+    opacity: 0.2;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 100px;
   }
   .attribute-resourceful {
-    background-image: url("../public/assets/home/desktop/illustration-resourceful.svg"),
+    background-image: linear-gradient(
+        90deg,
+        rgba(93, 2, 2, 0.0001) 0%,
+        rgba(93, 2, 2, 0.497569) 100%
+      ),
       url("../public/assets/home/desktop/bg-pattern-hero-home.svg");
+    opacity: 0.2;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    mix-blend-mode: normal;
+    border-radius: 100px;
   }
   .attribute-friendly {
-    background-image: url("../public/assets/home/desktop/illustration-friendly.svg"),
+    background-image: linear-gradient(
+        90deg,
+        rgba(93, 2, 2, 0.0001) 0%,
+        rgba(93, 2, 2, 0.497569) 100%
+      ),
       url("../public/assets/home/desktop/bg-pattern-hero-home.svg");
+    opacity: 0.2;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    border-radius: 100px;
   }
 }
