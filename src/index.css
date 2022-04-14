@@ -85,6 +85,7 @@
     height: 24px;
     background-image: url("../public/assets/shared/desktop/icon-instagram.svg");
   }
+  /* get in touch background */
   .getInTouchBg-mobile {
     background-position: top -100px right -305px;
   }
@@ -94,6 +95,7 @@
   .getInTouchBg-desktop {
     background-position: top -140px right;
   }
+  /* title background */
   .titleBg-mobile {
     background-position: top right;
   }
@@ -109,6 +111,7 @@
   .graphicTitleBg-desktop {
     background-position: top -160px left -50px;
   }
+  /* design menu pages */
   .menu-pages-web-design-desktop-large {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../public/assets/home/desktop/image-web-design-large.jpg");
@@ -148,5 +151,18 @@
   .menu-pages-graphic-design-mobile {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("../public/assets/home/mobile/image-graphic-design.jpg");
+  }
+  /* designo attributes background */
+  .attribute-passionate {
+    background-image: url("../public/assets/home/desktop/illustration-passionate.svg"),
+      url("../public/assets/home/desktop/bg-pattern-hero-home.svg");
+  }
+  .attribute-resourceful {
+    background-image: url("../public/assets/home/desktop/illustration-resourceful.svg"),
+      url("../public/assets/home/desktop/bg-pattern-hero-home.svg");
+  }
+  .attribute-friendly {
+    background-image: url("../public/assets/home/desktop/illustration-friendly.svg"),
+      url("../public/assets/home/desktop/bg-pattern-hero-home.svg");
   }
 }
