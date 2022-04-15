@@ -39,6 +39,10 @@ module.exports = {
           "url('../public/assets/shared/desktop/bg-pattern-two-circles.svg')",
         "pattern-three-circles":
           "url('../public/assets/shared/desktop/bg-pattern-three-circles.svg')",
+        "pattern-about-hero-desktop":
+          "url('../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg')",
+        "pattern-about-hero-mobile":
+          "url('../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg')",
       },
     },
   },

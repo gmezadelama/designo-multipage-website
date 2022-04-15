@@ -307,4 +307,32 @@
   .detailed-location-uk-tablet {
     background-image: url("../public/assets/locations/tablet/image-map-uk.png");
   }
+  /* about us */
+  .about-hero-desktop {
+    background-image: url("../public/assets/about/desktop/image-about-hero.jpg");
+  }
+  .about-hero-tablet {
+    background-image: url("../public/assets/about/tablet/image-about-hero.jpg");
+  }
+  .about-hero-mobile {
+    background-image: url("../public/assets/about/mobile/image-about-hero.jpg");
+  }
+  .real-deal-desktop {
+    background-image: url("../public/assets/about/desktop/image-real-deal.jpg");
+  }
+  .real-deal-tablet {
+    background-image: url("../public/assets/about/tablet/image-real-deal.jpg");
+  }
+  .real-deal-mobile {
+    background-image: url("../public/assets/about/mobile/image-real-deal.jpg");
+  }
+  .world-class-desktop {
+    background-image: url("../public/assets/about/desktop/image-world-class-talent.jpg");
+  }
+  .world-class-tablet {
+    background-image: url("../public/assets/about/tablet/image-world-class-talent.jpg");
+  }
+  .world-class-mobile {
+    background-image: url("../public/assets/about/mobile/image-world-class-talent.jpg");
+  }
 }
