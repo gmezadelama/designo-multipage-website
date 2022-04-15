@@ -25,6 +25,7 @@ SingleAttributeComponent.args = {
   description:
     "Each project starts with an in-depth brand research to ensure we only create products that server a purpose. We merge art, design, and technology into exciting new solution.",
   imageClass: "attribute-passionate",
+  imageSrc: "/assets/home/desktop/illustration-passionate.svg",
 };
 
 const AttributeListTemplate: ComponentStory<typeof DesignoAttribute> = (

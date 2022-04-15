@@ -3,7 +3,7 @@ import Location from "./Location";
 const LocationsList = () => {
   return (
     <>
-      <div className="grid gap-12 mx-auto sm:gap-20 md:gap-0 md:grid-cols-3">
+      <div className="grid gap-12 mx-auto sm:gap-20 lg:gap-0 lg:grid-cols-3">
         <Location
           title={"Canada"}
           imageClass={"location-canada"}

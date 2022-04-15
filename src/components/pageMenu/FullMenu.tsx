@@ -9,16 +9,16 @@ const FullMenu = (props: IFullMenuProps) => {
     <>
       <div
         className={
-          "grid grid-rows-[1fr_2fr] gap-6 h-[798px] max-h-[798px] w-full sm:h-[649px] md:h-[640px] md:gap-[30px] md:grid-cols-[1fr_1fr]"
+          "grid grid-rows-[1fr_2fr] gap-6 h-[798px] max-h-[798px] w-full sm:h-[649px] lg:h-[640px] lg:gap-[30px] lg:grid-cols-[1fr_1fr]"
         }
       >
         <PageMenuButton
           title={"Web Design"}
           backgroundClass={
-            "menu-pages-web-design-mobile sm:menu-pages-web-design-tablet md:menu-pages-web-design-desktop-large"
+            "menu-pages-web-design-mobile sm:menu-pages-web-design-tablet lg:menu-pages-web-design-desktop-large"
           }
           backgroundHoverClass={
-            "hover:menu-pages-web-design-mobile-hover sm:hover:menu-pages-web-design-tablet-hover md:hover:menu-pages-web-design-desktop-large-hover"
+            "hover:menu-pages-web-design-mobile-hover sm:hover:menu-pages-web-design-tablet-hover lg:hover:menu-pages-web-design-desktop-large-hover"
           }
         />
         <div className={"grid gap-6"}>

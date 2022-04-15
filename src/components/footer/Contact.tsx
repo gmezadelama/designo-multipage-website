@@ -8,7 +8,7 @@ const Contact = () => {
       />
       <div className="p-0 mt-10 mb-0 mx-auto text-center grid gap-[40px] sm:mt-0 sm:w-full sm:gap-0 sm:flex sm:grid-rows-none sm:text-left sm:mx-0">
         <div
-          className={"p-0 sm:grow sm:shrink sm:max-w-[223px] md:max-w-[350px]"}
+          className={"p-0 sm:grow sm:shrink sm:max-w-[223px] lg:max-w-[350px]"}
         >
           <div className={"text-white opacity-50 font-bold tracking-[1px]"}>
             {"Designo Central Office"}
@@ -21,7 +21,7 @@ const Contact = () => {
           </div>
         </div>
         <div
-          className={"p-0 sm:grow sm:shrink sm:max-w-[223px] md:max-w-[350px]"}
+          className={"p-0 sm:grow sm:shrink sm:max-w-[223px] lg:max-w-[350px]"}
         >
           <div className={"text-white opacity-50 font-bold tracking-[1px]"}>
             {"Contact Us (Central Office)"}

@@ -22,7 +22,7 @@ const Feature = ({ imageSrc, title, description }: IFeatureProps) => {
   return (
     <>
       <div
-        className={`grid grid-flow-row w-full max-h-[478px] rounded-[15px] ${bgColor} hover:cursor-pointer sm:max-h-[310px] sm:grid-flow-col md:max-h-[478px] md:grid-flow-row`}
+        className={`grid grid-flow-row w-full max-h-[478px] rounded-[15px] ${bgColor} hover:cursor-pointer sm:max-h-[310px] sm:grid-flow-col sm:grid-cols-2 lg:grid-cols-none lg:max-h-[478px] lg:grid-flow-row`}
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
       >
@@ -30,7 +30,7 @@ const Feature = ({ imageSrc, title, description }: IFeatureProps) => {
           src={imageSrc}
           alt={title}
           className={
-            "w-full max-h-[320px] sm:max-h-[310px] md:max-h-[320px] rounded-t-[15px] sm:rounded-t-none sm:rounded-l-[15px] md:rounded-l-none md:rounded-t-[15px]"
+            "w-full max-h-[320px] sm:max-h-[310px] lg:max-h-[320px] rounded-t-[15px] sm:rounded-t-none sm:rounded-l-[15px] lg:rounded-l-none lg:rounded-t-[15px]"
           }
         />
         <div

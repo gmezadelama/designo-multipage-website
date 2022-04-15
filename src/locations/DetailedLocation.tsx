@@ -20,19 +20,19 @@ const DetailedLocation = ({
   reverse,
 }: IDetailedLocationProps) => {
   const gridFlowColStyle = !!reverse
-    ? "md:grid-cols[auto_350px]"
-    : "md:grid-cols-[350px_auto]";
-  const reverseStyle = !!reverse ? "md:order-first" : "";
+    ? "lg:grid-cols[auto_350px]"
+    : "lg:grid-cols-[350px_auto]";
+  const reverseStyle = !!reverse ? "lg:order-first" : "";
   return (
     <>
       <div
-        className={`grid grid-flow-row md:grid-flow-col-dense h-[714px] sm:h-[683px] sm:gap-[31px] md:gap-[30px] ${gridFlowColStyle} md:h-[326px]`}
+        className={`grid grid-flow-row lg:grid-flow-col-dense h-[714px] sm:h-[683px] sm:gap-[31px] lg:gap-[30px] ${gridFlowColStyle} lg:h-[326px]`}
       >
         <div
-          className={`${mapClass} bg-no-repeat bg-cover h-[320px] w-full sm:h-[326px] md:max-w-[350px]`}
+          className={`${mapClass} bg-no-repeat bg-cover h-[320px] w-full sm:h-[326px] lg:max-w-[350px]`}
         />
         <div
-          className={`bg-[#FDF3F0] bg-pattern-three-circles bg-no-repeat grid gap-6 py-[80px] h-[394px] sm:bg-pattern-two-circles sm:bg-[bottom_-20px_left_-10px] md:bg-[bottom_0_left_-30px] sm:pl-[88px] sm:h-[326px] lg:pl-[95px] ${reverseStyle}`}
+          className={`bg-[#FDF3F0] bg-pattern-three-circles bg-no-repeat grid gap-6 py-[80px] h-[394px] sm:bg-pattern-two-circles sm:bg-[bottom_-20px_left_-10px] lg:bg-[bottom_0_left_-30px] sm:pl-[88px] sm:h-[326px] lg:pl-[95px] ${reverseStyle}`}
         >
           <div
             className={

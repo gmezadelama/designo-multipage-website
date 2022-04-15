@@ -8,7 +8,7 @@ const Header = () => {
       <GetInTouch />
       <div
         className={
-          "bg-black px-[24px] sm:px-[39px] pb-16 sm:pb-20 md:px-[60px] lg:px-[165px]"
+          "bg-black px-[24px] sm:px-[39px] pb-16 sm:pb-20 lg:px-[165px]"
         }
       >
         <CompanyMenu />

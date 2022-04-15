@@ -3,11 +3,11 @@ import DetailedLocation from "./DetailedLocation";
 const DetailedLocationsList = () => {
   return (
     <>
-      <div className="grid gap-10 mx-auto sm:gap-[120px] md:gap-12">
+      <div className="grid gap-10 mx-auto sm:gap-[120px] lg:gap-12">
         <DetailedLocation
           title={"Canada"}
           mapClass={
-            "detailed-location-canada sm:detailed-location-canada-tablet md:detailed-location-canada"
+            "detailed-location-canada sm:detailed-location-canada-tablet lg:detailed-location-canada"
           }
           officeTitle={"Designo Central Office"}
           officeAddrLine1={"3886 Wellington Street"}
@@ -18,7 +18,7 @@ const DetailedLocationsList = () => {
         <DetailedLocation
           title={"Australia"}
           mapClass={
-            "detailed-location-australia sm:detailed-location-australia-tablet md:detailed-location-australia"
+            "detailed-location-australia sm:detailed-location-australia-tablet lg:detailed-location-australia"
           }
           officeTitle={"Designo AU Office"}
           officeAddrLine1={"19 Balonne Street"}
@@ -30,7 +30,7 @@ const DetailedLocationsList = () => {
         <DetailedLocation
           title={"United Kingdom"}
           mapClass={
-            "detailed-location-uk sm:detailed-location-uk-tablet md:detailed-location-uk"
+            "detailed-location-uk sm:detailed-location-uk-tablet lg:detailed-location-uk"
           }
           officeTitle={"Designo UK Office"}
           officeAddrLine1={"13 Colorado Way"}

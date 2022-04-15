@@ -3,7 +3,7 @@ import DesignoAttribute from "./DesignoAttribute";
 const DesignoAttributesList = () => {
   return (
     <>
-      <div className="grid gap-20 mx-auto sm:gap-8 md:gap-[30px] md:grid-cols-3">
+      <div className="grid gap-20 mx-auto sm:gap-8 lg:gap-[30px] lg:grid-cols-3">
         <DesignoAttribute
           title={"Passionate"}
           description={

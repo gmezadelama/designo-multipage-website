@@ -23,7 +23,7 @@ export const DetailedLocationComponent = DetailedLocationTemplate.bind({});
 DetailedLocationComponent.args = {
   title: "Canada",
   mapClass:
-    "detailed-location-canada sm:detailed-location-canada-tablet md:detailed-location-canada",
+    "detailed-location-canada sm:detailed-location-canada-tablet lg:detailed-location-canada",
   officeTitle: "Designo Central Office",
   officeAddrLine1: "3886 Wellington Street",
   officeAddrLine2: "Toronto, Ontario M9C 3J5",

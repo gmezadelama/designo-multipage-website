@@ -8,7 +8,7 @@ const PartialMenuLayout = (props: IPartialMenuLayoutProps) => {
     <>
       <div
         className={
-          "grid gap-6 md:gap-[30px] md:grid-cols-2 h-[524px] sm:h-[424px] md:h-[308px]"
+          "grid gap-6 lg:gap-[30px] lg:grid-cols-2 h-[524px] sm:h-[424px] lg:h-[308px]"
         }
       >
         {MenuButton1}
