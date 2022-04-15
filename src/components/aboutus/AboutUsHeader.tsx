@@ -10,7 +10,7 @@ const AboutUsHeader = () => {
           className={`about-hero-mobile sm:about-hero-tablet lg:about-hero-desktop bg-cover bg-no-repeat w-full h-[320px] lg:h-[480px] lg:w-[476px] sm:rounded-t-[15px] lg:rounded-t-none lg:rounded-r-[15px] `}
         />
         <div
-          className={`bg-peach bg-pattern-about-hero-mobile sm:bg-pattern-about-hero-desktop bg-[top_25%_right] sm:bg-[top_130%_left_-150px] lg:bg-bottom sm:bg-cover bg-no-repeat h-[395px] w-full justify-center text-center px-6 py-[80px] sm:h-[312px] sm:px-[58px] sm:py-[64px] lg:pl-[95px] lg:pr-[82px] lg:py-[135px] lg:h-[480px] lg:order-first  sm:rounded-b-[15px] lg:rounded-br-none lg:rounded-l-[15px] lg:bg-auto`}
+          className={`bg-peach bg-pattern-about-hero-mobile sm:bg-pattern-about-hero-desktop bg-[top_-140px_right] sm:bg-[top_-430px_left_-122px] lg:bg-bottom bg-no-repeat h-[395px] w-full justify-center text-center px-6 py-[80px] sm:h-[312px] sm:px-[58px] sm:py-[64px] lg:pl-[95px] lg:pr-[82px] lg:py-[135px] lg:h-[480px] lg:order-first  sm:rounded-b-[15px] lg:rounded-br-none lg:rounded-l-[15px] lg:bg-auto`}
         >
           <div
             className={
