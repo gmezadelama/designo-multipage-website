@@ -33,6 +33,12 @@ module.exports = {
           "url('../public/assets/shared/tablet/bg-pattern-design-pages-intro-tablet.svg')",
         "intro-design-pages-mobile":
           "url('../public/assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg')",
+        "pattern-small-circle":
+          "url('../public/assets/shared/desktop/bg-pattern-small-circle.svg')",
+        "pattern-two-circles":
+          "url('../public/assets/shared/desktop/bg-pattern-two-circles.svg')",
+        "pattern-three-circles":
+          "url('../public/assets/shared/desktop/bg-pattern-three-circles.svg')",
       },
     },
   },

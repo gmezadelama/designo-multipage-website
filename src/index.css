@@ -289,4 +289,22 @@
     transform: matrix(0, 1, 1, 0, 0, 0);
     border-radius: 100px;
   }
+  .detailed-location-canada {
+    background-image: url("../public/assets/locations/desktop/image-map-canada.png");
+  }
+  .detailed-location-australia {
+    background-image: url("../public/assets/locations/desktop/image-map-australia.png");
+  }
+  .detailed-location-uk {
+    background-image: url("../public/assets/locations/desktop/image-map-united-kingdom.png");
+  }
+  .detailed-location-canada-tablet {
+    background-image: url("../public/assets/locations/tablet/image-map-canada.png");
+  }
+  .detailed-location-australia-tablet {
+    background-image: url("../public/assets/locations/tablet/image-map-australia.png");
+  }
+  .detailed-location-uk-tablet {
+    background-image: url("../public/assets/locations/tablet/image-map-uk.png");
+  }
 }
