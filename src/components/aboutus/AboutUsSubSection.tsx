@@ -23,7 +23,9 @@ const AboutUsSubSection = ({
       ? "lg:rounded-bl-none lg:rounded-r-[15px]"
       : "lg:rounded-br-none lg:rounded-l-[15px]"
   }`;
-  const reverseStyle = !!reverse ? "lg:order-first" : "";
+  const reverseStyle = !!reverse
+    ? "lg:order-first bg-pattern-two-circles lg:bg-[bottom_left] "
+    : "lg:bg-[bottom_left_-150px] ";
   return (
     <>
       <div
@@ -35,7 +37,7 @@ const AboutUsSubSection = ({
           className={`${imageClass} bg-cover bg-no-repeat w-full h-[320px] lg:h-[640px] lg:w-[476px] ${imageRadius}`}
         />
         <div
-          className={`bg-[#FDF3F0] bg-pattern-three-circles bg-cover bg-no-repeat h-[545px] w-full justify-center text-center px-6 py-[80px] sm:h-[416px] sm:px-[59px] sm:py-[68px] lg:px-[94px] lg:py-[154px] lg:h-[640px] ${reverseStyle} ${textRadius}`}
+          className={`bg-[#FDF3F0] bg-pattern-three-circles bg-cover bg-no-repeat h-[545px] w-full justify-center text-center px-6 py-[80px] sm:bg-[top_125_left_100px] sm:bg-auto sm:h-[416px] sm:px-[59px] sm:py-[68px] lg:px-[94px] lg:py-[154px] lg:h-[640px] ${reverseStyle} ${textRadius}`}
         >
           <div
             className={
