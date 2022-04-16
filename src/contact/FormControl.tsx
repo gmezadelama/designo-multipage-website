@@ -28,7 +28,7 @@ const FormControl = ({
     <div className={"w-full relative"}>
       {!isTextArea && (
         <input
-          className={`w-full text-white font-medium outline-none text-[15px] leading-[26px] pl-3 pb-3 ${underlineClass} border-white placeholder:text-white placeholder:opacity-50 placeholder:font-medium`}
+          className={`w-full text-white font-medium hover:cursor-pointer outline-none text-[15px] leading-[26px] pl-3 pb-3 ${underlineClass} border-white placeholder:text-white placeholder:opacity-50 placeholder:font-medium`}
           type={"text"}
           value={value}
           placeholder={placeholder}
@@ -41,7 +41,7 @@ const FormControl = ({
       )}
       {!!isTextArea && (
         <textarea
-          className={`w-full text-white font-medium outline-none text-[15px] leading-[26px] pl-3 pb-3 ${underlineClass} border-white placeholder:text-white placeholder:opacity-50 placeholder:font-medium`}
+          className={`w-full text-white font-medium hover:cursor-pointer outline-none text-[15px] leading-[26px] pl-3 pb-3 ${underlineClass} border-white placeholder:text-white placeholder:opacity-50 placeholder:font-medium`}
           value={value}
           placeholder={placeholder}
           name={name}

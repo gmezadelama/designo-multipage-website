@@ -87,7 +87,10 @@ const ContactUsForm = () => {
       formData[FormDataEnum.Message],
     ];
     return formValues
-      .map((fv: FormValue) => fv.isValid)
+      .map(
+        (fv: FormValue) =>
+          fv.isValid && (!fv.isRequired || (fv.isRequired && !!fv.value))
+      )
       .reduce((previous, current) => previous && current, true);
   };
   const onSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -100,12 +103,12 @@ const ContactUsForm = () => {
     <>
       <div
         className={
-          "bg-pattern-hero-contact-mobile bg-peach bg-[top_left_-92px] py-[72px] px-6 bg-no-repeat sm:bg-pattern-hero-contact-desktop sm:bg-[top_-83px_left_-83px] sm:pl-[61px] sm:pr-[55px] sm:pt-[69px] sm:h-[711px] lg:h-[480px] lg:bg-[bottom_left] w-full h-[764px] grid grid-flow-row gap-12 grid-rows-[auto_auto] lg:grid-cols-[auto_auto] lg:gap-[95px] lg:px-[95px] lg:pt-[55px]"
+          "bg-pattern-hero-contact-mobile bg-peach bg-[top_left_-92px] py-[72px] px-6 bg-no-repeat sm:bg-pattern-hero-contact-desktop sm:bg-[top_-83px_left_-83px] sm:pl-[61px] sm:pr-[55px] sm:pt-[69px] sm:h-[711px] lg:h-[480px] lg:bg-[bottom_left] w-full h-[764px] grid grid-flow-row gap-12 grid-rows-[auto_auto] lg:grid-cols-[auto_1fr] lg:gap-[0_95px] lg:px-[95px] lg:pt-[55px]"
         }
       >
         <div
           className={
-            "grid grid-flow-row gap-6 text-center grid-rows-[auto_auto] max-h-[185px] sm:text-left lg:max-w-[445px]"
+            "grid grid-flow-row gap-6 text-center grid-rows-[auto_auto] max-h-[185px] sm:text-left lg:max-w-[445px] lg:pt-20"
           }
         >
           <h1 className={"text-white text-[32px] leading-9 sm:text-5xl"}>
