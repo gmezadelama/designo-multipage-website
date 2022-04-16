@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import LightButton from "../components/buttons/LightButton";
 import FormControl from "./FormControl";
 
@@ -34,6 +34,11 @@ const ContactUsForm = () => {
     message: getCleanFormValue(true),
   });
   const [formData, setFormData] = useState<FormData>(getCleanFormData());
+  useEffect(() => {
+    return () => {
+      setFormData(getCleanFormData());
+    };
+  }, []);
   const isValid = (
     newValue: string,
     formDataKey: FormDataEnum,
@@ -43,6 +48,7 @@ const ContactUsForm = () => {
     if (!newValue && currentFormValue.isRequired) return false;
     if (formDataKey === FormDataEnum.Email) {
       // TODO validate email format
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(newValue);
     }
     return true;
   };
@@ -94,19 +100,36 @@ const ContactUsForm = () => {
     <>
       <div
         className={
-          "bg-pattern-hero-contact-mobile bg-peach bg-[top_left_-92px] bg-no-repeat sm:bg-pattern-hero-desktop w-full h-[764px]"
+          "bg-pattern-hero-contact-mobile bg-peach bg-[top_left_-92px] py-[72px] px-6 bg-no-repeat sm:bg-pattern-hero-contact-desktop sm:bg-[top_-83px_left_-83px] sm:pl-[61px] sm:pr-[55px] sm:pt-[69px] sm:h-[711px] lg:h-[480px] lg:bg-[bottom_left] w-full h-[764px] grid grid-flow-row gap-12 grid-rows-[auto_auto] lg:grid-cols-[auto_auto] lg:gap-[95px] lg:px-[95px] lg:pt-[55px]"
         }
       >
-        <div>{"Contact Us"}</div>
-        <div>
-          {
-            "Ready to take it to the next level? Lets talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that's relatable to your users, drop us a line."
+        <div
+          className={
+            "grid grid-flow-row gap-6 text-center grid-rows-[auto_auto] max-h-[185px] sm:text-left lg:max-w-[445px]"
           }
+        >
+          <h1 className={"text-white text-[32px] leading-9 sm:text-5xl"}>
+            {"Contact Us"}
+          </h1>
+          <div
+            className={
+              "text-white text-[15px] leading-[25px] sm:text-[1rem] sm:leading-[26px]"
+            }
+          >
+            {
+              "Ready to take it to the next level? Lets talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that's relatable to your users, drop us a line."
+            }
+          </div>
         </div>
-        <div>
-          <form>
+        <div className={"h-[387px] w-full"}>
+          <form className={"w-full grid gap-6"} autoComplete={"off"}>
+            <input
+              autoComplete="off"
+              name="hidden"
+              type="text"
+              style={{ display: "none" }}
+            />
             <FormControl
-              label={"Name"}
               value={formData[FormDataEnum.Name].value}
               placeholder={"Name"}
               name={FormDataEnum.Name as string}
@@ -118,7 +141,6 @@ const ContactUsForm = () => {
               onChange={onChangeInput}
             />
             <FormControl
-              label={"Email Address"}
               value={formData[FormDataEnum.Email].value}
               placeholder={"Email Address"}
               name={FormDataEnum.Email as string}
@@ -130,7 +152,6 @@ const ContactUsForm = () => {
               onChange={onChangeInput}
             />
             <FormControl
-              label={"Phone"}
               value={formData[FormDataEnum.PhoneNumber].value}
               placeholder={"Phone"}
               name={FormDataEnum.PhoneNumber as string}
@@ -142,7 +163,6 @@ const ContactUsForm = () => {
               onChange={onChangeInput}
             />
             <FormControl
-              label={"Your Message"}
               value={formData[FormDataEnum.Message].value}
               placeholder={"Your Message"}
               name={FormDataEnum.Message as string}
@@ -154,7 +174,7 @@ const ContactUsForm = () => {
               isTextArea
               onChange={onChangeInput}
             />
-            <div>
+            <div className={"text-center pt-4 sm:pt-0 sm:text-right"}>
               <LightButton
                 label={"Submit"}
                 onClick={onSubmit}

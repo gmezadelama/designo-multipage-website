@@ -39,9 +39,9 @@ const Title = (props: ITitleProps) => {
     <div
       className={`bg-peach bg-intro-design-pages-mobile bg-no-repeat titleBg-mobile rounded-[15px] max-h-[320px] py-[105px] px-6 grid gap-6 text-center justify-center sm:bg-intro-design-pages-tablet sm:titleBg-tablet sm:max-h-[252px] sm:py-16 ${desktopBg} ${desktopBgPosition} `}
     >
-      <div className={"text-white text-[32px] leading-9 sm:text-5xl"}>
+      <h1 className={"text-white text-[32px] leading-9 sm:text-5xl"}>
         {title}
-      </div>
+      </h1>
       <div
         className={
           "text-white text-[15px] leading-[25px] max-w-[327px] sm:text-[1rem] sm:leading-[1.625rem] sm:max-w-[400px]"
