@@ -38,6 +38,7 @@ const ContactUsForm = () => {
     return () => {
       setFormData(getCleanFormData());
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const isValid = (
     newValue: string,
@@ -79,23 +80,45 @@ const ContactUsForm = () => {
       return "Please use a valid email address";
     return "";
   };
+  const validateField = (fieldData: FormValue, formDataKey: FormDataEnum) => {
+    const isValidField = isValid(fieldData.value, formDataKey, fieldData);
+    return {
+      ...fieldData,
+      isValid: isValidField,
+    };
+  };
   const isFormValid = (): boolean => {
+    const validatedForm = {
+      [FormDataEnum.Name]: validateField(
+        formData[FormDataEnum.Name],
+        FormDataEnum.Name
+      ),
+      [FormDataEnum.Email]: validateField(
+        formData[FormDataEnum.Email],
+        FormDataEnum.Email
+      ),
+      [FormDataEnum.PhoneNumber]: validateField(
+        formData[FormDataEnum.PhoneNumber],
+        FormDataEnum.PhoneNumber
+      ),
+      [FormDataEnum.Message]: validateField(
+        formData[FormDataEnum.Message],
+        FormDataEnum.Message
+      ),
+    };
+    setFormData(validatedForm);
     const formValues = [
-      formData[FormDataEnum.Name],
-      formData[FormDataEnum.Email],
-      formData[FormDataEnum.PhoneNumber],
-      formData[FormDataEnum.Message],
+      validatedForm[FormDataEnum.Name].isValid,
+      validatedForm[FormDataEnum.Email].isValid,
+      validatedForm[FormDataEnum.PhoneNumber].isValid,
+      validatedForm[FormDataEnum.Message].isValid,
     ];
-    return formValues
-      .map(
-        (fv: FormValue) =>
-          fv.isValid && (!fv.isRequired || (fv.isRequired && !!fv.value))
-      )
-      .reduce((previous, current) => previous && current, true);
+    return formValues.reduce((previous, current) => previous && current, true);
   };
   const onSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     if (isFormValid()) {
+      //send info
       setFormData(getCleanFormData());
     }
   };
