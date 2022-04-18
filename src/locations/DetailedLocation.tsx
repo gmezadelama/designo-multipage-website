@@ -32,7 +32,7 @@ const DetailedLocation = ({
           className={`${mapClass} bg-no-repeat bg-cover h-[320px] w-full sm:h-[326px] lg:max-w-[350px] sm:rounded-[15px]`}
         />
         <div
-          className={`bg-[#FDF3F0] bg-pattern-three-circles bg-no-repeat grid gap-6 py-[80px] h-[394px] sm:bg-pattern-two-circles sm:bg-[bottom_-20px_left_-10px] lg:bg-[bottom_0_left_-30px] sm:pl-[88px] sm:h-[326px] lg:pl-[95px] sm:rounded-[15px] ${reverseStyle}`}
+          className={`bg-[#FDF3F0] bg-pattern-three-circles bg-no-repeat grid gap-6 py-[80px] h-[394px] sm:bg-pattern-two-circles sm:bg-[bottom_left] sm:pl-[88px] sm:h-[326px] lg:pl-[95px] sm:rounded-[15px] ${reverseStyle}`}
         >
           <div
             className={

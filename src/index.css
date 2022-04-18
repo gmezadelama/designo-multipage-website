@@ -87,29 +87,29 @@
   }
   /* get in touch background */
   .getInTouchBg-mobile {
-    background-position: top -100px right -305px;
+    background-position: center right -309px;
   }
   .getInTouchBg-tablet {
-    background-position: top -115px right -230px;
+    background-position: center right -166px;
   }
   .getInTouchBg-desktop {
-    background-position: top -140px right;
+    background-position: center right;
   }
   /* title background */
   .titleBg-mobile {
     background-position: top right;
   }
   .titleBg-tablet {
-    background-position: top -170px right -160px;
+    background-position: center right -165px;
   }
   .webTitleBg-desktop {
-    background-position: top -160px right;
+    background-position: center right;
   }
   .appTitleBg-desktop {
-    background-position: top -160px left -70px;
+    background-position: center left -58px;
   }
   .graphicTitleBg-desktop {
-    background-position: top -160px left -50px;
+    background-position: center left -58px;
   }
   /* design menu pages */
   .menu-pages-web-design-desktop-large {
