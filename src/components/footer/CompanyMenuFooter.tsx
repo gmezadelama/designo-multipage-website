@@ -1,10 +1,17 @@
-export interface ICompanyMenuFooterProps {}
+export interface ICompanyMenuFooterProps {
+  disableClickHome?: boolean;
+}
 
-const CompanyMenuFooter = (props: ICompanyMenuFooterProps) => {
+const CompanyMenuFooter = ({ disableClickHome }: ICompanyMenuFooterProps) => {
+  const redirectHome = () => {
+    if (!!disableClickHome) return;
+  };
+  const logoHoveringStyle = !disableClickHome ? "hover:cursor-pointer" : "";
   return (
     <div className={"sm:grid sm:grid-cols-[1fr_auto] bg-black"}>
       <div
-        className={`mx-auto my-0 sm:m-0 bg-logo-light w-[195px] h-[24px] bg-cover`}
+        className={`mx-auto my-0 sm:m-0 bg-logo-light w-[195px] h-[24px] bg-cover ${logoHoveringStyle}`}
+        onClick={redirectHome}
       />
       <div
         className={

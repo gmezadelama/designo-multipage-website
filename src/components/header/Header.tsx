@@ -1,14 +1,18 @@
 import { useState } from "react";
 
 export interface IHeaderProps {
-  darkMode?: boolean;
+  disableClickHome?: boolean;
 }
 
-const Header = (props: IHeaderProps) => {
+const Header = ({ disableClickHome }: IHeaderProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const redirectHome = () => {
+    if (!!disableClickHome) return;
+  };
+  const logoHoveringStyle = !disableClickHome ? "hover:cursor-pointer" : "";
   return (
     <>
       <div
@@ -16,7 +20,10 @@ const Header = (props: IHeaderProps) => {
           "grid grid-cols-[1fr_auto] px-6 pt-[35px] pb-[37px] sm:pt-[64px] sm:pb-[67px] sm:px-0 sm:py-16"
         }
       >
-        <div className={`bg-logo-dark w-[195px] h-[24px] bg-cover`} />
+        <div
+          className={`bg-logo-dark w-[195px] h-[24px] bg-cover ${logoHoveringStyle}`}
+          onClick={redirectHome}
+        />
         <div
           className={
             "hidden sm:inline-grid sm:grid-flow-col sm:auto-cols-auto sm:gap-[42px]"

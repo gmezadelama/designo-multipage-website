@@ -12,7 +12,7 @@ export default {
 
 const FooterTemplate: ComponentStory<typeof Footer> = (args) => (
   <footer className={"p-0"}>
-    <Footer />
+    <Footer {...args} />
   </footer>
 );
 
