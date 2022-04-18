@@ -335,4 +335,20 @@
   .world-class-mobile {
     background-image: url("../public/assets/about/mobile/image-world-class-talent.jpg");
   }
+  /* hero */
+  .bg-phone-hero-image-mobile {
+    background-image: url("../public/assets/home/desktop/image-hero-phone.png"),
+      url("../public/assets/contact/desktop/bg-pattern-hero-desktop.svg");
+    background-position: top 302px center, center left;
+  }
+  .bg-phone-hero-image-tablet {
+    background-image: url("../public/assets/home/desktop/image-hero-phone.png"),
+      url("../public/assets/contact/desktop/bg-pattern-hero-desktop.svg");
+    background-position: top 285px center, center right -122px;
+  }
+  .bg-phone-hero-image-desktop {
+    background-image: url("../public/assets/home/desktop/image-hero-phone.png"),
+      url("../public/assets/contact/desktop/bg-pattern-hero-desktop.svg");
+    background-position: top -33px right -70px, center right;
+  }
 }

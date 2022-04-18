@@ -47,8 +47,6 @@ module.exports = {
           "url('../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg')",
         "pattern-hero-contact-mobile":
           "url('../public/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg')",
-        "pattern-hero-contact-desktop":
-          "url('../public/assets/contact/desktop/bg-pattern-hero-desktop.svg')",
       },
     },
   },
