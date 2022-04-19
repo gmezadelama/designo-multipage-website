@@ -1,8 +1,8 @@
-export interface IFeaturesListProps {
+export interface IShowcaseProps {
   children: JSX.Element[];
 }
 
-const FeaturesList = (props: IFeaturesListProps) => {
+const Showcase = (props: IShowcaseProps) => {
   return (
     <>
       <div
@@ -16,4 +16,4 @@ const FeaturesList = (props: IFeaturesListProps) => {
   );
 };
 
-export default FeaturesList;
+export default Showcase;

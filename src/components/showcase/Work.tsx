@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-export interface IFeatureProps {
+export interface IWorkProps {
   imageSrc: string;
   title: string;
   description: string;
 }
 
-const Feature = ({ imageSrc, title, description }: IFeatureProps) => {
+const Work = ({ imageSrc, title, description }: IWorkProps) => {
   const [isHovering, setIsHovering] = useState<boolean>(false);
   const onMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {
     e.preventDefault();
@@ -46,4 +46,4 @@ const Feature = ({ imageSrc, title, description }: IFeatureProps) => {
   );
 };
 
-export default Feature;
+export default Work;

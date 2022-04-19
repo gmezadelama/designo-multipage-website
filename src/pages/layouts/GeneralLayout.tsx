@@ -17,7 +17,7 @@ const GeneralLayout = ({
   const onToggleMenu = (isOpen: boolean) => {
     setIsMenuOpen(isOpen);
   };
-  const overflowMobileStyle = isMenuOpen ? "fixed sm:static" : "";
+  const overflowMobileStyle = isMenuOpen ? "fixed sm:static w-[100vw]" : "";
   return (
     <div
       className={`grid grid-rows-[96px_1fr] sm:grid-rows-[155px_auto] max-w-[100vw] ${overflowMobileStyle}`}

@@ -1,4 +1,4 @@
-import DesignoAttributesList from "../components/attributes/DesignoAttributesList";
+import DesignoFeaturesList from "../components/features/DesignoFeaturesList";
 import Hero from "../components/home/Hero";
 import FullMenu from "../components/pageMenu/FullMenu";
 import GeneralLayout from "./layouts/GeneralLayout";
@@ -11,7 +11,7 @@ const Home = () => {
         <HomeContentLayout>
           <Hero />
           <FullMenu />
-          <DesignoAttributesList />
+          <DesignoFeaturesList />
         </HomeContentLayout>
       </GeneralLayout>
     </>

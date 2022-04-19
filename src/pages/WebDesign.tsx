@@ -1,12 +1,24 @@
-import Navigate from "../components/buttons/Navigate";
+import WebDesignShowcase from "../components/showcase/WebDesignShowcase";
+import AppDesignButton from "../components/pageMenu/AppDesignButton";
+import GraphicDesignButton from "../components/pageMenu/GraphicDesignButton";
+import PartialMenuLayout from "../components/pageMenu/PartialMenuLayout";
+import Title, { DesignPagesEnum } from "../components/title/Title";
+import GeneralLayout from "./layouts/GeneralLayout";
+import DesignPagesContentLayout from "./layouts/DesignPagesContentLayout";
 
 const WebDesign = () => {
   return (
     <>
-      <h1 className={"bg-[#34EF89]"}>{"WebDesign"}</h1>
-      <div>
-        <Navigate />
-      </div>
+      <GeneralLayout>
+        <DesignPagesContentLayout>
+          <Title page={DesignPagesEnum.Web} />
+          <WebDesignShowcase />
+          <PartialMenuLayout>
+            <AppDesignButton />
+            <GraphicDesignButton />
+          </PartialMenuLayout>
+        </DesignPagesContentLayout>
+      </GeneralLayout>
     </>
   );
 };

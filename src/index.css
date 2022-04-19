@@ -223,7 +223,7 @@
       url("../public/assets/home/mobile/image-graphic-design.jpg");
   }
   /* designo attributes background */
-  .attribute-passionate {
+  .feature-passionate {
     background-image: linear-gradient(
       90deg,
       rgba(93, 2, 2, 0.0001) 0%,
@@ -233,7 +233,7 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 100px;
   }
-  .attribute-resourceful {
+  .feature-resourceful {
     background-image: linear-gradient(
       90deg,
       rgba(93, 2, 2, 0.0001) 0%,
@@ -244,7 +244,7 @@
     mix-blend-mode: normal;
     border-radius: 100px;
   }
-  .attribute-friendly {
+  .feature-friendly {
     background-image: linear-gradient(
       90deg,
       rgba(93, 2, 2, 0.0001) 0%,

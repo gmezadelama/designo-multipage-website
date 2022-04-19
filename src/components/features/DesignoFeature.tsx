@@ -1,16 +1,16 @@
-export interface IDesignoAttributeProps {
+export interface IDesignoFeatureProps {
   imageClass: string;
   imageSrc: string;
   title: string;
   description: string;
 }
 
-const DesignoAttribute = ({
+const DesignoFeature = ({
   imageClass,
   imageSrc,
   title,
   description,
-}: IDesignoAttributeProps) => {
+}: IDesignoFeatureProps) => {
   return (
     <>
       <div
@@ -43,4 +43,4 @@ const DesignoAttribute = ({
   );
 };
 
-export default DesignoAttribute;
+export default DesignoFeature;
