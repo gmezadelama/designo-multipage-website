@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import ContactUsForm from "../../contact/ContactUsForm";
+import ContactUsForm from "../../components/contact/ContactUsForm";
 
 export default {
   title: "Designo/Contact Us",

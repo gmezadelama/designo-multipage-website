@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { DesignoRoutes } from "../../utils/constants";
+import { DesignoRoutes, MAX_WIDTH_CONTENT } from "../../utils/constants";
 
 export interface IHeaderProps {
   disableClickHome?: boolean;
@@ -35,9 +35,7 @@ const Header = ({ disableClickHome, onToggleMenu }: IHeaderProps) => {
   return (
     <>
       <div
-        className={
-          "grid grid-cols-[1fr_auto] px-6 pt-[35px] pb-[37px] sm:px-10 sm:py-16 lg:px-[164px]"
-        }
+        className={`grid grid-cols-[1fr_auto] px-6 pt-[35px] pb-[37px] sm:px-10 sm:py-16 lg:px-[164px] lg:max-w-[${MAX_WIDTH_CONTENT}px] lg:mx-auto`}
       >
         <div
           className={`bg-logo-dark w-[195px] h-[24px] bg-cover ${logoHoveringStyle}`}

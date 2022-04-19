@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import LightButton from "../components/buttons/LightButton";
+import LightButton from "../buttons/LightButton";
 import FormControl from "./FormControl";
 
 interface FormValue {

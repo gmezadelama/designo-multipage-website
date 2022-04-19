@@ -20,7 +20,7 @@ const DetailedLocation = ({
   reverse,
 }: IDetailedLocationProps) => {
   const gridFlowColStyle = !!reverse
-    ? "lg:grid-cols[auto_350px]"
+    ? "lg:grid-cols-[auto_350px]"
     : "lg:grid-cols-[350px_auto]";
   const reverseStyle = !!reverse ? "lg:order-first" : "";
   return (

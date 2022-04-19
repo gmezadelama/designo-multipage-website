@@ -1,4 +1,4 @@
-import DarkButton from "../components/buttons/DarkButton";
+import DarkButton from "../buttons/DarkButton";
 
 export interface ILocationProps {
   imageClass: string;

@@ -3,7 +3,7 @@ const Contact = () => {
     <>
       <div
         className={
-          "hidden sm:block sm:border-t sm:h-1 sm:border-white sm:border-opacity-10 sm:mt-10 sm:mb-[30px]"
+          "hidden sm:block sm:border-t sm:h-1 sm:border-white sm:border-opacity-10 sm:mt-10 sm:mb-[30px] lg:max-w-[1200px]"
         }
       />
       <div className="p-0 mt-10 mb-0 mx-auto text-center grid gap-[40px] sm:mt-0 sm:w-full sm:gap-0 sm:flex sm:grid-rows-none sm:text-left sm:mx-0">

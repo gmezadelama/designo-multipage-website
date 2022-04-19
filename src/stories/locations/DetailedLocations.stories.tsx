@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import DetailedLocation from "../../locations/DetailedLocation";
-import DetailedLocationsList from "../../locations/DetailedLocationsList";
+import DetailedLocation from "../../components/locations/DetailedLocation";
+import DetailedLocationsList from "../../components/locations/DetailedLocationsList";
 
 export default {
   title: "Designo/Detailed Locations",
