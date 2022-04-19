@@ -1,5 +1,6 @@
 export interface IDetailedLocationProps {
   mapClass: string;
+  id: string;
   title: string;
   officeTitle: string;
   officeAddrLine1: string;
@@ -10,6 +11,7 @@ export interface IDetailedLocationProps {
 }
 
 const DetailedLocation = ({
+  id,
   title,
   mapClass,
   officeTitle,
@@ -25,8 +27,9 @@ const DetailedLocation = ({
   const reverseStyle = !!reverse ? "lg:order-first" : "";
   return (
     <>
-      <div
-        className={`grid grid-flow-row lg:grid-flow-col-dense h-[714px] sm:h-[683px] sm:gap-[31px] lg:gap-[30px] ${gridFlowColStyle} lg:h-[326px]`}
+      <section
+        id={id}
+        className={`grid grid-flow-row p-0 m-0 lg:grid-flow-col-dense h-[714px] sm:h-[683px] sm:gap-[31px] lg:gap-[30px] ${gridFlowColStyle} lg:h-[326px]`}
       >
         <div
           className={`${mapClass} bg-no-repeat bg-cover h-[320px] w-full sm:h-[326px] lg:max-w-[350px] sm:rounded-[15px]`}
@@ -58,7 +61,7 @@ const DetailedLocation = ({
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

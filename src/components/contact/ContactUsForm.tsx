@@ -126,7 +126,7 @@ const ContactUsForm = () => {
     <>
       <div
         className={
-          "bg-pattern-hero-contact-mobile bg-peach bg-[top_left_-92px] py-[72px] px-6 bg-no-repeat sm:bg-pattern-hero-contact-desktop sm:bg-[top_-83px_left_-83px] sm:pl-[61px] sm:pr-[55px] sm:pt-[69px] sm:h-[711px] lg:h-[480px] lg:bg-[bottom_left] w-full h-[764px] grid grid-flow-row gap-12 grid-rows-[auto_auto] lg:grid-cols-[auto_1fr] lg:gap-[0_95px] lg:px-[95px] lg:pt-[55px]"
+          "bg-pattern-hero-contact-mobile bg-peach bg-[top_left_-92px] py-[72px] px-6 bg-no-repeat sm:rounded-[15px] sm:bg-pattern-hero-contact-desktop sm:bg-[top_-83px_left_-83px] sm:pl-[61px] sm:pr-[55px] sm:pt-[69px] sm:h-[711px] lg:h-[480px] lg:bg-[bottom_left] w-full h-[764px] grid grid-flow-row gap-12 grid-rows-[auto_auto] lg:grid-cols-[auto_1fr] lg:gap-[0_95px] lg:px-[95px] lg:pt-[55px]"
         }
       >
         <div

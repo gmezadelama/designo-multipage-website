@@ -1,4 +1,4 @@
-import { MAX_WIDTH_CONTENT } from "../../utils/constants";
+import { MAX_WIDTH_CONTENT_STYLE_FOOTER } from "../../utils/constants";
 import CompanyMenu from "./CompanyMenuFooter";
 import Contact from "./Contact";
 import GetInTouch from "./GetInTouch";
@@ -16,7 +16,7 @@ const Footer = ({ hideGetInTouch, disableClickHome }: IFooterProps) => {
       <div
         className={`bg-black px-[24px] sm:px-[39px] pb-16 sm:pb-20 lg:px-[165px] ${getInTouchPaddingTop}`}
       >
-        <div className={`lg:max-w-[${MAX_WIDTH_CONTENT}px] mx-auto`}>
+        <div className={`${MAX_WIDTH_CONTENT_STYLE_FOOTER}`}>
           <CompanyMenu disableClickHome={disableClickHome} />
           <Contact />
         </div>

@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+import { DesignoRoutes } from "../../utils/constants";
 import DarkButton from "../buttons/DarkButton";
 
 export interface ILocationProps {
@@ -7,6 +9,10 @@ export interface ILocationProps {
 }
 
 const Location = ({ imageClass, imageSrc, title }: ILocationProps) => {
+  const navigate = useNavigate();
+  const onClickLocation = () => {
+    navigate(DesignoRoutes.Locations);
+  };
   return (
     <>
       <div
@@ -25,7 +31,7 @@ const Location = ({ imageClass, imageSrc, title }: ILocationProps) => {
         <div className={"grid gap-y-8 w-full"}>
           <h3 className={"text-center"}>{title}</h3>
           <div className={"text-center"}>
-            <DarkButton label={"See Location"} />
+            <DarkButton label={"See Location"} onClick={onClickLocation} />
           </div>
         </div>
       </div>

@@ -1,5 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import { DesignoRoutes, MAX_WIDTH_CONTENT } from "../../utils/constants";
+import {
+  DesignoRoutes,
+  MAX_WIDTH_CONTENT_STYLE_FOOTER,
+} from "../../utils/constants";
 import LightButton from "../buttons/LightButton";
 
 const GetInTouch = () => {
@@ -15,7 +18,7 @@ const GetInTouch = () => {
         }
       >
         <div
-          className={`h-[379px] w-full bg-peach bg-call-to-action bg-no-repeat getInTouchBg-mobile rounded-[15px] text-center justify-center text-white py-[57px] grid gap-8 sm:h-[350px] sm:getInTouchBg-tablet lg:flex lg:justify-between lg:h-[292px] lg:py-[72px] lg:getInTouchBg-desktop lg:px-[95px]  lg:max-w-[${MAX_WIDTH_CONTENT}px] lg:mx-auto`}
+          className={`h-[379px] w-full bg-peach bg-call-to-action bg-no-repeat getInTouchBg-mobile rounded-[15px] text-center justify-center text-white py-[57px] grid gap-8 sm:h-[350px] sm:getInTouchBg-tablet lg:flex lg:justify-between lg:h-[292px] lg:py-[72px] lg:getInTouchBg-desktop lg:px-[95px]  ${MAX_WIDTH_CONTENT_STYLE_FOOTER}`}
         >
           <div className={"grid gap-4 lg:flex-grow lg:gap-2"}>
             <div

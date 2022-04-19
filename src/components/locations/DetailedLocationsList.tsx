@@ -5,6 +5,7 @@ const DetailedLocationsList = () => {
     <>
       <div className="grid gap-10 mx-auto sm:gap-[120px] lg:gap-12">
         <DetailedLocation
+          id={"canada"}
           title={"Canada"}
           mapClass={
             "detailed-location-canada sm:detailed-location-canada-tablet lg:detailed-location-canada"
@@ -16,6 +17,7 @@ const DetailedLocationsList = () => {
           email={"contact@designo.co"}
         />
         <DetailedLocation
+          id={"australia"}
           title={"Australia"}
           mapClass={
             "detailed-location-australia sm:detailed-location-australia-tablet lg:detailed-location-australia"
@@ -28,6 +30,7 @@ const DetailedLocationsList = () => {
           reverse
         />
         <DetailedLocation
+          id={"uk"}
           title={"United Kingdom"}
           mapClass={
             "detailed-location-uk sm:detailed-location-uk-tablet lg:detailed-location-uk"
