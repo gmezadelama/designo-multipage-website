@@ -38,11 +38,11 @@ const Contact = () => {
             "p-0 inline-grid grid-flow-col grid-cols-[24px_24px_24px_24px_24px] mx-auto gap-4 sm:self-end sm:grow sm:shrink sm:justify-end"
           }
         >
-          <div className={"icon-facebook"} />
-          <div className={"icon-youtube"} />
-          <div className={"icon-twitter"} />
-          <div className={"icon-pinterest"} />
-          <div className={"icon-instagram"} />
+          <div className={"icon-facebook cursor-pointer"} />
+          <div className={"icon-youtube cursor-pointer"} />
+          <div className={"icon-twitter cursor-pointer"} />
+          <div className={"icon-pinterest cursor-pointer"} />
+          <div className={"icon-instagram cursor-pointer"} />
         </div>
       </div>
     </>

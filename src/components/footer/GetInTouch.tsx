@@ -1,8 +1,12 @@
+import { useNavigate } from "react-router-dom";
+import { DesignoRoutes } from "../../utils/constants";
 import LightButton from "../buttons/LightButton";
 
-export interface IGetInTouchProps {}
-
-const GetInTouch = (props: IGetInTouchProps) => {
+const GetInTouch = () => {
+  const navigate = useNavigate();
+  const onClick = () => {
+    navigate(DesignoRoutes.Contact);
+  };
   return (
     <div className={"h-[430px] lg:h-[364px]"}>
       <div
@@ -34,7 +38,7 @@ const GetInTouch = (props: IGetInTouchProps) => {
             </div>
           </div>
           <div className={"lg:grow-0 lg:py-[46px]"}>
-            <LightButton label={"Get in touch"} />
+            <LightButton label={"Get in touch"} onClick={onClick} />
           </div>
         </div>
       </div>

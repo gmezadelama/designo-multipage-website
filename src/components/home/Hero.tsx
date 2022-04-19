@@ -1,6 +1,12 @@
+import { useNavigate } from "react-router-dom";
+import { DesignoRoutes } from "../../utils/constants";
 import LightButton from "../buttons/LightButton";
 
 const Hero = () => {
+  const navigate = useNavigate();
+  const onClickLearnMore = () => {
+    navigate(DesignoRoutes.AboutUs);
+  };
   return (
     <>
       <div
@@ -31,7 +37,7 @@ const Hero = () => {
           </div>
         </div>
         <div className={"text-center lg:text-left"}>
-          <LightButton label={"Learn More"} />
+          <LightButton label={"Learn More"} onClick={onClickLearnMore} />
         </div>
       </div>
     </>
