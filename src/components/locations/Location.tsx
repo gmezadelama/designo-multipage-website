@@ -6,12 +6,18 @@ export interface ILocationProps {
   imageClass: string;
   imageSrc: string;
   title: string;
+  hashLink?: string;
 }
 
-const Location = ({ imageClass, imageSrc, title }: ILocationProps) => {
+const Location = ({
+  imageClass,
+  imageSrc,
+  title,
+  hashLink,
+}: ILocationProps) => {
   const navigate = useNavigate();
   const onClickLocation = () => {
-    navigate(DesignoRoutes.Locations);
+    navigate(`${DesignoRoutes.Locations}${!!hashLink ? `#${hashLink}` : ""}`);
   };
   return (
     <>

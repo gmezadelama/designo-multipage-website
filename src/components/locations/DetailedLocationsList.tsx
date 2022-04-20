@@ -1,6 +1,17 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import DetailedLocation from "./DetailedLocation";
 
 const DetailedLocationsList = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (!!location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (!!element) {
+        window.scrollTo(0, element.offsetTop);
+      }
+    }
+  }, [location]);
   return (
     <>
       <div className="grid gap-10 mx-auto sm:gap-[120px] lg:gap-12">
