@@ -39,13 +39,13 @@ const AboutUsSubSection = ({
         <div
           className={`bg-[#FDF3F0] bg-pattern-three-circles bg-no-repeat bg-[bottom_-39px_left] h-[545px] w-full justify-center text-center px-6 py-[80px] sm:bg-[top_-212px_right_11px] sm:bg-auto sm:h-[416px] sm:px-[59px] sm:py-[68px] lg:px-[94px] lg:py-[154px] lg:h-[640px] ${reverseStyle} ${textRadius}`}
         >
-          <div
+          <h4
             className={
               "text-center text-peach font-medium text-[32px] leading-9 mb-6 lg:text-left"
             }
           >
             {title}
-          </div>
+          </h4>
           <div
             className={
               "text-center text-[15px] leading-[25px] mb-6 lg:text-left"

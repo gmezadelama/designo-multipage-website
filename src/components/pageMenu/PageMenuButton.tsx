@@ -16,13 +16,13 @@ const PageMenuButton = ({
       onClick={onClick}
       className={`${backgroundClass} bg-no-repeat bg-cover rounded-[15px] w-full h-full py-[90px] grid grid-flow-row gap-6 justify-center mx-auto sm:py-[53px] lg:py-[105px] hover:cursor-pointer ${backgroundHoverClass}`}
     >
-      <div
+      <h3
         className={
           "text-white uppercase tracking-[5px] text-[28px] leading-9 mt-auto mb-0 lg:text-[40px] lg:leading-[48px]"
         }
       >
         {title}
-      </div>
+      </h3>
       <div className={"inline-block mx-auto"}>
         <div
           className={

@@ -12,13 +12,13 @@ const AboutUsHeader = () => {
         <div
           className={`bg-peach bg-pattern-about-hero-mobile sm:bg-pattern-about-hero-desktop bg-[top_-140px_right] sm:bg-[top_-430px_left_-122px] lg:bg-bottom bg-no-repeat h-[395px] w-full justify-center text-center px-6 py-[80px] sm:h-[312px] sm:px-[58px] sm:py-[64px] lg:pl-[95px] lg:pr-[82px] lg:py-[135px] lg:h-[480px] lg:order-first  sm:rounded-b-[15px] lg:rounded-br-none lg:rounded-l-[15px] lg:bg-auto`}
         >
-          <div
+          <h2
             className={
               "text-center text-white font-medium text-[32px] leading-9 mb-6 sm:text-5xl lg:text-left"
             }
           >
             {"About Us"}
-          </div>
+          </h2>
           <div
             className={
               "text-white text-center text-[15px] leading-[25px] mb-6 sm:text-[1rem] sm:leading-[26px] lg:text-left"

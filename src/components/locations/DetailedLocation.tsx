@@ -49,13 +49,13 @@ const DetailedLocation = ({
         <div
           className={`bg-[#FDF3F0] bg-pattern-three-circles bg-no-repeat grid gap-6 py-[80px] h-[394px] sm:bg-pattern-two-circles sm:bg-[bottom_left] sm:pl-[88px] sm:h-[326px] lg:pl-[95px] sm:rounded-[15px] ${reverseStyle}`}
         >
-          <div
+          <h2
             className={
               "text-peach text-center text-[32px] leading-9 font-medium sm:text-left mb-0 mt-auto"
             }
           >
             {title}
-          </div>
+          </h2>
           <div className={"grid grid-flow-row gap-6 sm:grid-flow-col"}>
             <div
               className={"text-[15px] leading-[25px] text-center sm:text-left"}
