@@ -47,9 +47,8 @@ const ContactUsForm = () => {
   ) => {
     if (!currentFormValue) return false;
     if (!newValue && currentFormValue.isRequired) return false;
-    if (formDataKey === FormDataEnum.Email) {
-      // TODO validate email format
-      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(newValue);
+    if (formDataKey === FormDataEnum.Email && !!newValue) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(newValue.trim());
     }
     return true;
   };

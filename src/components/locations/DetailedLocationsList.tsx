@@ -7,9 +7,8 @@ const DetailedLocationsList = () => {
         <DetailedLocation
           id={"canada"}
           title={"Canada"}
-          mapClass={
-            "detailed-location-canada sm:detailed-location-canada-tablet lg:detailed-location-canada"
-          }
+          lat={43.644}
+          lon={-79.395}
           officeTitle={"Designo Central Office"}
           officeAddrLine1={"3886 Wellington Street"}
           officeAddrLine2={"Toronto, Ontario M9C 3J5"}
@@ -19,9 +18,8 @@ const DetailedLocationsList = () => {
         <DetailedLocation
           id={"australia"}
           title={"Australia"}
-          mapClass={
-            "detailed-location-australia sm:detailed-location-australia-tablet lg:detailed-location-australia"
-          }
+          lat={-30.33}
+          lon={149.788}
           officeTitle={"Designo AU Office"}
           officeAddrLine1={"19 Balonne Street"}
           officeAddrLine2={"New South Wales 2443"}
@@ -32,9 +30,8 @@ const DetailedLocationsList = () => {
         <DetailedLocation
           id={"uk"}
           title={"United Kingdom"}
-          mapClass={
-            "detailed-location-uk sm:detailed-location-uk-tablet lg:detailed-location-uk"
-          }
+          lat={53.71}
+          lon={-1.342}
           officeTitle={"Designo UK Office"}
           officeAddrLine1={"13 Colorado Way"}
           officeAddrLine2={"Rhyd-y-fro SA8 9GA"}
