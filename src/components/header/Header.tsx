@@ -75,7 +75,7 @@ const Header = ({ disableClickHome, onToggleMenu }: IHeaderProps) => {
       {isMenuOpen && (
         <nav
           className={
-            "bg-[rgba(0,0,0,0.5)] h-[calc(100vh-96px)] sm:hidden z-10 w-[100vw] absolute top-[96px]"
+            "bg-[rgba(0,0,0,0.5)] h-[calc(100vh-96px)] sm:hidden z-[1100] w-[100vw] absolute top-[96px]"
           }
         >
           <div className={"px-6 py-12 grid bg-black gap-8"}>
