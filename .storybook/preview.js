@@ -1,5 +1,6 @@
 // import "!style-loader!css-loader!postcss-loader!tailwindcss/tailwind.css";
 import "../src/index.css";
+import { MemoryRouter } from "react-router-dom";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -10,3 +11,11 @@ export const parameters = {
     },
   },
 };
+
+export const decorators = [
+  (Story) => (
+    <MemoryRouter>
+      <Story />
+    </MemoryRouter>
+  ),
+];
