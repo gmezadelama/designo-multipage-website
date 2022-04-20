@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-website-using-react-and-tailwind-css-H1JV76T49)
+- Live Site URL: [Live Site](https://designo-multipage-website-virid.vercel.app/)
 
 ## My process
 
